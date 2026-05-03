@@ -2,7 +2,6 @@
 
 > Built at **IGUS Robotics** — an end-to-end system that lets you tell a robot what to do in plain English, and it does it.
 
-https://github.com/user-attachments/assets/YOUR_DEMO_VIDEO_HERE
 
 ## Overview
 
@@ -108,9 +107,7 @@ ros2 launch vision_guided_manipulation full_pipeline.launch.py
 
 ## Acknowledgments
 
-Built at the IGUS Robotics Lab. Thanks to [lab director name] for providing access to the ReBeL platform and workspace.
+Built at the IGUS Robotics Lab. Thanks to Michael Spaziano for providing access to the ReBeL platform and workspace.
 
-## License
 
-MIT
 
