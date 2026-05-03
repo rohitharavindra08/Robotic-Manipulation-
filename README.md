@@ -81,24 +81,6 @@ vision-guided-robotic-manipulation/
 - IGUS ReBeL with iRC controller
 - Intel RealSense D435
 
-### Installation
-```bash
-# Clone into your ROS2 workspace
-cd ~/ros2_ws/src
-git clone https://github.com/rohitharavindra08/vision-guided-robotic-manipulation.git
-
-# Install dependencies
-cd vision-guided-robotic-manipulation
-pip install -r requirements.txt
-rosdep install --from-paths . --ignore-src -r -y
-
-# Build
-cd ~/ros2_ws
-colcon build --packages-select vision_guided_manipulation
-
-# Launch
-ros2 launch vision_guided_manipulation full_pipeline.launch.py
-```
 
 ## Demo
 
